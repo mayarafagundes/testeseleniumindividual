@@ -1,78 +1,18 @@
-Teste fomulários site Tricentis
+##Projeto em selenium Webdriver - java e cucumber individual para avaliação.
 
-Autora:
-Mayara Fagundes
+Este projeto foi elaborado por: Mayara Fagundes https://github.com/mayarafagundes/testeseleniumindividual
 
+###Criar um projeto em selenium Webdriver - java e cucumber usando Page objects (precisamos executar o script através da feature)
 
+Passo a passo para o teste automático(Colocar algum verificador do objeto antes de fazer as ações):
 
-Descrição do projeto em selenium webdrive (java) e cucumber usando Page objects
-5 cenários distribuídos em 5 arquivos de casos de teste
-
-  Caso de teste 1
-  Acessar os formularios da Tricentis
-  Criando uma rotina de teste para validar o site Tricentis
-
-  Cenario:
-    Acessar e preencher o primeiro formulario do site
-    Dado que eu estou no site "http://sampleapp.tricentis.com/101/app.php"
-    E seleciono Make e clico em "audi"
-    E seleciono Model e clico em "Scooter"
-    E informo em Cylinder Capacity "125"
-    E informo em Engine Performance "25"
-    E digito em Date of Manufacture "03/27/2021"
-    E seleciono em Number of Seats e clico em "2"
-    E seleciono em Right Hand Drive e clico em "Yes"
-    E seleciono novamente Number of Seats e digito "2"
-    E seleciono Fuel Type "Gas"
-    E informo em Payload "400"
-    E informo em Total Weight "400"
-    E informo em List Price "1050"
-    E informo em License Plate Number "8760"
-    E informo em Annual Mileage "1000"
-    Entao devo clicar em Next para o formulario Insurant Data
-
-  Caso de teste 2
-  Cenario:Acessar e preencher o segundo formulario do site
-    Dado que eu estou no site da Trincentis no formulario "Enter Insurant Data"
-    E seleciono First Name e digito "Mayara"
-    E seleciono Last Name e digito em "Fagundes"
-    E seleciono Date of Birth e digito "08/04/1992"
-    E seleciono Gender e clico em "Female"
-    E digito em Street Adress "Fagundes Varela 2128"
-    E seleciono em Contry e clico em "Brazil"
-    E seleciono em Zip Code e digito "85807480"
-    E seleciono em City e digito "Cascavel"
-    E seleciono Occupation e seleciono "Employee"
-    E seleciono Hobbies e clico em "Speeding"
-    E informo em Website "www.bdalabs.com.br"
-    Entao devo clicar em Next para o formulario Enter Product Data
-
-Caso de teste 3
-Cenario: Acessar e preencher o terceiro formulario do site
-    Dado que eu estou no site da Trincentis no formulario "Enter Product Data"
-    E seleciono Start Date e digito "09/26/2021"
-    E seleciono Insurance Sum e clico em "3.000.000,00"
-    E seleciono Merit Rating e clico em "Bonus 1"
-    E seleciono Damage Insurance e clico em "No Coverage"
-    E seleciono Optional Products e clico em "Euro Protection"
-    E seleciono Courtesy Car e clico em "Yes" 
-    Entao devo clicar em Next para o formulario Select Price Option
-Caso de teste 4
-    Cenário: Acessar e preencher o quarto formulario do site
-    Dado que eu estou no site da Trincentis no formulario "Select Price Option"
-    E seleciono Select Option o plano Gold
-    Entao devo clicar em Next para o formulario Send Quote
-Caso de teste 5
-    Acessar e preencher o quinto formulario do site
-    Dado que eu estou no site da Trincentis no formulario "Send Quota"
-    E seleciono E-mail e digito "mayara.fagundes@outlook.com.br"
-    E seleciono Phone e digito "45999812706"
-    E seleciono Username e digito "Mayagundes"
-    E seleciono Password e digito "Teste123"
-    E seleciono Confirm Password e digito "Teste123"
-    E seleciono Comments e digito "Aguardo um retorno,obrigada!"
-    E devo clicar em Send
-    Entao ver a mensagem "Sending e-mail success!"
+[x]Entrar no site http://sampleapp.tricentis.com/101/app.php
+[x]Preencher o formulário, aba “Enter Vehicle Data” e pressione next
+[x]Preencher o formulário, aba “Enter Insurant Data” e pressione next
+[x]Preencher o formulário, aba “Enter Product Data” e pressione next
+[x]Preencher o formulário, aba “Select Price Option” e pressione next
+[x]Preencher o formulário, aba “Send Quote” e pressione Send
+[x]Verificar a mensagem “Sending e-mail success!” na tela
 
 Dependencias
 cucumber-java
@@ -83,6 +23,7 @@ junit-jupiter
 Plugin
 maven-compiler
 Tecnologias utilizadas
+
 ✔️ Java
 Linguagem de programação para desenvolvimento da aplicação
 
