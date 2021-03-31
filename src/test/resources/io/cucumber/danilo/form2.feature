@@ -10,7 +10,7 @@ Funcionalidade: Acessar os formularios da Tricentis
     E seleciono Gender e clico em "Female"
     E digito em Street Adress "Fagundes Varela 2128"
     E seleciono em Contry e clico em "Brazil"
-    E seleciono em Zip Code e digito "85807480"
+    E seleciono em Zip Code e digito "85815540"
     E seleciono em City e digito "Cascavel"
     E seleciono Occupation e seleciono "Employee"
     E seleciono Hobbies e clico em "Speeding"
