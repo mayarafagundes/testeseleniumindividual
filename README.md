@@ -6,13 +6,13 @@ Este projeto foi elaborado por: Mayara Fagundes https://github.com/mayarafagunde
 
 Passo a passo para o teste automático(Colocar algum verificador do objeto antes de fazer as ações):
 
-[x]Entrar no site http://sampleapp.tricentis.com/101/app.php
-[x]Preencher o formulário, aba “Enter Vehicle Data” e pressione next
-[x]Preencher o formulário, aba “Enter Insurant Data” e pressione next
-[x]Preencher o formulário, aba “Enter Product Data” e pressione next
-[x]Preencher o formulário, aba “Select Price Option” e pressione next
-[x]Preencher o formulário, aba “Send Quote” e pressione Send
-[x]Verificar a mensagem “Sending e-mail success!” na tela
+<p>Entrar no site http://sampleapp.tricentis.com/101/app.php</p>
+<p>Preencher o formulário, aba “Enter Vehicle Data” e pressione next</p>
+<p>Preencher o formulário, aba “Enter Insurant Data” e pressione next</p>
+<p>Preencher o formulário, aba “Enter Product Data” e pressione next</p>
+<p>Preencher o formulário, aba “Select Price Option” e pressione next</p>
+<p>Preencher o formulário, aba “Send Quote” e pressione Send</p>
+<p>Verificar a mensagem “Sending e-mail success!” na tela</p>
 
 Dependencias
 cucumber-java
