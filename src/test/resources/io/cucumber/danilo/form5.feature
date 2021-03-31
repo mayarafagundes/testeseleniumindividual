@@ -9,6 +9,6 @@ Funcionalidade: Acessar os formularios da Tricentis
     E seleciono Username e digito "Mayagundes"
     E seleciono Password e digito "Teste123"
     E seleciono Confirm Password e digito "Teste123"
-    E seleciono Comments e digito "Aguardo um retorno,obrigada"
+    E seleciono Comments e digito "Aguardo um retorno,obrigada!"
     E devo clicar em Send
     Entao ver a mensagem "Sending e-mail success!"
